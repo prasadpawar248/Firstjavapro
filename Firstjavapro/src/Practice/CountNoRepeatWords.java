@@ -13,6 +13,8 @@ public class CountNoRepeatWords {
 
 		int y=sent.length()-sent.replace("i", "").length();
 		System.out.println("After replace india no. of i is:"+" "+ y);
+		
+		System.out.println(sen.replace(" ", "@"));
 	
 	}
 
