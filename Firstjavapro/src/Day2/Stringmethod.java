@@ -28,7 +28,7 @@ public class Stringmethod {
 		System.out.println(s.replace("e", "o"));      // replace char with some other char.   -Wolcomo
 		System.out.println(s1.replace("java", "python"));      // replace word with other word -welcome to python
 		System.out.println(s.substring(2,5));  // Return substring of string based on starting index & ending index  -lco
-		System.out.println(s.substring(0,3));  //  -Wel
+		System.out.println(s.substring(1));  //  -Wel
 		
 		s="MANUAL TEST ENGINEER";
 		s1="automation test engineer";

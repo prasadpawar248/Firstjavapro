@@ -1,47 +1,32 @@
 package Practice;
 
+import java.util.Arrays;
+
 public class FindAnagramString 
 {
 	public static void main(String[] args)
 	{
-		String a="army";
-		String b="mary";
+
+
+		String x = "aa";
+		String y = "aab";
+
+		char[]a=x.toCharArray();
+		char[]b=y.toCharArray();
 		
-		int x=a.length();
-		int y=b.length();
+		Arrays.sort(a);
+		Arrays.sort(b);
 		
-		
-		int count=0;
-		
-		if(x==y)
+		boolean value=Arrays.equals(a,b);
+		if(value==true)
 		{
-			for(int i=0;i<x;i++)
-			{
-				boolean value=false;
-				for(int j=0;j<y;j++)
-				{
-					if((a.charAt(i))==(b.charAt(j)))
-					{
-						value=true;	
-					}
-					
-				}
-				if(value==true)
-				{
-					count++;
-				}
-			}
-		}
-	
-		if(count==4)
-		{
-			System.out.println("Strings are Anagram");
+			System.out.println("strings are anagram");
 		}
 		else
 		{
-			System.out.println("Strings are not Anagram");
-		}
+			System.out.println("strings are not anagram");
 		
+		}
 	}
 
 }

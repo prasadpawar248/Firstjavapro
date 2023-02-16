@@ -11,9 +11,20 @@ public class Loopcondition
 		
 		int i=1;
 		
-		while(i<=10)
+		while(i<=2)
 		{
-			System.out.println(i);  // 1, 2, 3, 
+			for(int k=1;k<=5;k++)
+			{
+				if(k<=3)
+				{
+					System.out.println(k);  // 1, 2, 3, 
+					
+				}
+				else
+				{
+					break;
+				}
+			}
 			i++;
 		}
 		

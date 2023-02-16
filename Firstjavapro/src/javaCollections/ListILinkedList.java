@@ -9,9 +9,9 @@ public class ListILinkedList
 	{
 		
 	//Declare LinkedList
-		//In AL insertion order is preserved
-		//AL can allow duplicate data
-		//AL can allow different data type
+		//In LL insertion order is preserved
+		//LL can allow duplicate data
+		//LL can allow different data type
 		
 		// IF we want to add/delete data then we can used LL Instead of AL.
 		// if we want Retrieve(Get) data then we don't need to used LL BCOZ more time is required for operation.

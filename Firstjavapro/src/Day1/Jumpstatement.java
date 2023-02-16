@@ -13,20 +13,20 @@ public class Jumpstatement {
 			{
 				 break;
 			}
-			System.out.println(i);
+			System.out.print(i+" ");
 			
 		}
 
 // Jump statment- continue
 		System.out.println("--------Continue condition(1 to 100 odd no.--------");
 		
-		for (int j=1; j<=100; j++)
+		for (int j=1; j<=10; j++)
 		{
 			if (j%2==0)
 			{
 				continue;
 			}
-			System.out.println(j);
+			System.out.print(j+" ");
 		}
 		
 		

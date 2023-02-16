@@ -1,6 +1,7 @@
 package javaCollections;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Iterator;
 
 public class ListIArrayList 
@@ -32,6 +33,7 @@ public class ListIArrayList
 		al.add(20.50);
 		al.add(true);
 		al.add(null);
+		al.add("Akshay");
 		
 	//print data of al
 		System.out.println(al);  //[100, A, Akshay, 100, 20.5, true, null]
@@ -68,6 +70,10 @@ public class ListIArrayList
 		
 	//Is Empty
 		System.out.println(al.isEmpty());  //false
+		al.clear();  //clear all data
+		al.equals(al1); //false
+		Collections.sort(al);
+		Collections.sort(al,Collections.reverseOrder());
 		
 		
 	//Print all element by For Loop
@@ -96,3 +102,31 @@ public class ListIArrayList
 	}
 
 }
+
+
+
+/*
+
+
+-Insertion order is preserved
+-dublicates are allowed
+-any data types are allowed
+-if we want to retrieve data then we prefer ArrayList
+
+ArrayList obj=new ArrayList(); //this is combination of data.
+ArrayList <Integer> obj1=new ArrayList<Integer>(); //this is for multiple data type.
+ArrayList obj3=new ArrayList()
+
+obj.add("akshay");
+obj.size() //find length
+obj.add(1,"pawar");
+obj.get(0) //akshay
+obj.set(1,"prasad") //replace
+obj.remove("akshay")
+obj.remove(0)
+obj.contains("akshay") //false
+obj.isEmpty() // false
+
+obj3.addAll(obj);
+
+*/

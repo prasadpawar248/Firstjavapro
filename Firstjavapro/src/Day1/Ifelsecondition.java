@@ -51,7 +51,7 @@ public class Ifelsecondition
 			System.out.println("y is larger no");
 		}
 		
-	// Nested if else
+	// if else if condition
 		System.out.println("----------Nested if else--------");
 		
 		int day=7;
